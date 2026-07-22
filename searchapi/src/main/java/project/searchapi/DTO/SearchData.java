@@ -14,8 +14,5 @@ public class  SearchData{
      @Id
      @GeneratedValue(strategy = GenerationType.IDENTITY)
      private Integer id;
-
-    @JdbcTypeCode(SqlTypes.JSON)
-    @Column(columnDefinition = "json")
-    private Map<String, Object> data;//<-------
+    private String data;//<-------
 }
