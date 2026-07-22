@@ -17,9 +17,9 @@ A simple Search API project with a web-based UI to create, view, and fetch indiv
 
 ## Technologies
 
-- Frontend: JavaScript, HTML, CSS
+- Frontend: React.js
 - Backend: Java (recommended: Spring Boot)
-- Database: (optional) H2 / any JDBC-compatible database
+- Database: Mysql
 
 ## Project structure
 
